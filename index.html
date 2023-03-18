@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator | TamilCodeCamp</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      id="container"
+      class="flex flex-col p-4 gap-4 items-center justify-center"
+    >
+      <h2 class="font-bold text-2xl">Sum Calculator</h2>
+      <input
+        class="p-4 rounded font-lg"
+        type="text"
+        placeholder="number1"
+        name="num1"
+      />
+
+      <input
+        class="p-4 rounded font-lg"
+        type="text"
+        placeholder="number2"
+        name="num2"
+      />
+
+      <h2 class="font-bold text-lg">Output:</h2>
+
+      <input
+        class="p-4 rounded font-lg"
+        type="text"
+        placeholder="output"
+        name="output"
+      />
+      <button class="rounded bg-indigo-800 px-4 py-2 text-white" id="btn">
+        Add
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
